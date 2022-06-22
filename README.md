@@ -16,10 +16,17 @@ This study has interest only in wide pictures of players distributed through the
 
 ### Preprocessing
 
+A few techniques will be applied on image for better understanding of the behavior of the descriptors applied. Due to that, a conversion to the greyscale will be performed in the input image. Two tests will take place: a conversion by luminance and a conversion adjusted to the input, with need of additional information: Greyscale adjusted only in the channel of team of interest shirt color, e.g., if home team wears red, channel red will be used as reference to convert to greyscale.
+
+The first approach beneath the cited above will be priorized in the study.
+
 ### Bag of Features
+
+With the preprocessed images, the algorithm of the bag of features will be applied with the strategy of cutting the players of the original image through the descriptors.
 
 ### Desired Results
 
+The results desired after the applying of the algorithms of the methodology is the information extraction from the match frame. The main metric to be obtained is the number of players of each team displayed in that fragment of the pitch, additional information important to be computed in case of successful approach is the attack/defence scenario description. 
 
 
 References:
