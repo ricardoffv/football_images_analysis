@@ -29,5 +29,6 @@ With the preprocessed images, the algorithm of the bag of features will be appli
 The results desired after the applying of the algorithms of the methodology is the information extraction from the match frame. The main metric to be obtained is the number of players of each team displayed in that fragment of the pitch, additional information important to be computed in case of successful approach is the attack/defence scenario description. 
 
 
-References:
+## References
+
 [1] Zanganeh, A., Jampour, M., Layeghi, K.: IAUFD: A 100k images dataset for automatic football image/video analysis. IET Image Process. 00, 1– 10 (2022). https://doi.org/10.1049/ipr2.12543
